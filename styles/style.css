@@ -1,0 +1,161 @@
+/* General design */
+
+body{
+    background: linear-gradient(45deg,rgb(37, 73, 70),rgb(133, 209, 162));
+    font-family: 'Oswald', sans-serif !important;
+    width: 100%;
+}
+
+.container{
+    background-color: rgb(134, 238, 207);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 10%;
+}
+
+/* Title design */
+
+#title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 5% auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#description{
+    font-size: 2rem;
+    margin: 3% auto 8%;
+}
+
+/* Survey form design */
+label{
+    margin: auto 5%;
+}
+
+#name-label, #email-label, #number-label{
+    font-size: 1.5rem;
+}
+
+#name, #email, #number{
+    height: 100%;
+    width: 150%;
+}
+
+.name-div{
+    margin: 0 15% 5%;
+}
+
+.job{
+    margin: 7% 15% 5%  ;
+}
+
+.job label{
+    margin: 0 -1.5% 0 -5%;
+    font-size: 1.5rem;
+}
+
+#dropdown{
+    width: 120%;
+
+}
+
+/* radio zone */
+
+.hobbies{
+    margin: 5% auto;
+}
+
+
+.hobbies legend{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin: auto 0 auto 10%;
+}
+
+.hobbies label{
+    font-size: 1.4rem;
+    margin: 10% 2% auto 20%;
+}
+
+#choices, #reading, #cooking, #coding, #gaming{
+    margin-top: 1.2rem;
+    margin-left: -2rem;
+}
+
+.hob{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    line-height: 1.5;
+}
+
+.destress{
+    margin: 5% auto;
+}
+
+.destress legend{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin: auto 0 auto 10%;
+}
+
+
+.destress label{
+    font-size: 1.4rem;
+    margin: 10% 2% auto 20%;
+}
+
+.dest{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    line-height: 1.5;
+}
+
+.improvement{
+    margin: 0 auto 5%;
+}
+
+.titre{
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+
+.improvement label{
+    font-size: 1.4rem;
+    margin: 10% 2% auto 20%;
+}
+
+.impr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#js, #python, #ruby{
+    margin-top: 1.3rem;
+    margin-left: -2rem;
+}
+
+
+#comments{
+    margin: 2% 20% 5%;
+}
+
+.comment{
+    font-size: 1.5rem;
+}
+
+#submit{
+    margin-bottom: 5%;
+    width: 10rem;
+    font-size: 1.2rem;
+}
+
+#submit:hover{
+    background-color: #0B3D23;
+}

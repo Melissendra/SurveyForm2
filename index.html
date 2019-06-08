@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+<main>
+    <div class="title">
+        <h1 id="title">Registration</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl">
+                <div>
+                    <p id="description">Please answer a few questions to allow me to send you a personalized newsletter</p>
+                </div>
+            </div>
+        </div>
+        <form action="" id="survey-form">
+            <div class="name-div">
+                <div class="form-group row">
+                    <label for="name" class="col-sm-2 col-form-label" id="name-label">Name:</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-sm-2 col-form-label" id="email-label">Email:</label>
+                    <div class="col-sm-5">
+                        <input type="email" class="form-control" id="email" placeholder="Enter your mail" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="number" class="col-sm-2 col-form-label" id="number-label">Age:</label>
+                    <div class="col-sm-5">
+                        <input type="number" class="form-control" id="number" placeholder="Age" min="1" max="125" required>
+                    </div>
+                </div>
+            </div>
+            <div class="job">
+                <div class="form-group row job">
+                    <label for="dropdown" class="col-sm-4 col-form-label">What is your job?</label>
+                    <div class="col-sm-5 choice">
+                        <select name="job" id="dropdown" class="form-control-lg">
+                            <option value="1">Web developper</option>
+                            <option value="2">Software developper</option>
+                            <option value="3">DevOps</option>
+                            <option value="4">Databases administrator</option>
+                            <option value="5">Other</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <fieldset class="form-group">
+                    <div class="hobbies">
+                        <div class="row">
+                            <legend class="col-form-label col-sm-3">What are your hobbies?</legend>
+                            <div class="col-sm-6 hob">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="hobbies" id="choices" value="0">
+                                    <label for="choices" class="form-check-label">Reading</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="hobbies" id="choices" value="1">
+                                    <label for="choices" class="form-check-label">Cooking</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="hobbies" id="choices" value="2">
+                                    <label for="choices" class="form-check-label coding">Coding</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="hobbies" id="choices" value="3">
+                                    <label for="choices" class="form-check-label">Gaming</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destress">
+                        <div class="row">
+                            <legend class="col-form-label col-sm-3">What do you do to relax?</legend>
+                            <div class="col-sm-6 dest">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="hobbies" id="reading" value="0">
+                                    <label for="reading" class="form-check-label">Reading</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="hobbies" id="cooking" value="1">
+                                    <label for="cooking" class="form-check-label">Cooking</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="hobbies" id="coding" value="2">
+                                    <label for="coding" class="form-check-label">Coding</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="hobbies" id="gaming" value="3">
+                                    <label for="gaming" class="form-check-label">Gaming</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="improvement">
+                <div class="form-group row">
+                    <div class="col-sm-4 titre">
+                        What do you want to improved now?
+                    </div>
+                    <div class="col-sm-6 impr">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="JavaScript" id="js">
+                            <label for="js" class="form-check-label">JavaScript</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="python" id="python">
+                            <label for="python" class="form-check-label">Python</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="JavaScript" id="ruby">
+                            <label for="ruby" class="form-check-label">Ruby</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="form-group row">
+                    <label for="comments" class="col-sm-4 comment">Do you have some comments?</label>
+                    <textarea name="comment" id="comments" class="form-control" cols="30" rows="10" placeholder="Add comments"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-dark" id="submit">Submit</button>
+        </form>
+    </div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+</body>
+
+</html>
